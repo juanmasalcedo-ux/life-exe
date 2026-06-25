@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'LIFE.exe',
-    short_name: 'LIFE.exe',
+    name: 'Manny Tracker 2000',
+    short_name: 'Manny 2000',
     description: 'Habit tracker',
     start_url: '/',
     display: 'standalone',

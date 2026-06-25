@@ -17,8 +17,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LIFE.exe",
-  description: "Habit tracker RPG",
+  title: "Manny Tracker 2000",
+  description: "Habit tracker",
   icons: {
     apple: '/icon-192.png',
     icon:  '/icon-512.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'LIFE.exe',
+    title: 'Manny Tracker 2000',
   },
 };
 
