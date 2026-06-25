@@ -14,10 +14,7 @@ import { Habit, CATEGORY_ICONS } from '@/lib/types';
 const DAY_NAMES = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
 
 function formatDays(days: number[]): string {
-  if (days.length === 7) return 'Every day';
-  if (days.length === 5 && !days.includes(5) && !days.includes(6)) return 'Weekdays';
-  if (days.length === 2 && days.includes(5) && days.includes(6)) return 'Weekends';
-  return days.map(d => DAY_NAMES[d]).join(', ');
+  return `${days.length}/7 days`;
 }
 
 const CATEGORY_COLOR: Record<string, string> = {
