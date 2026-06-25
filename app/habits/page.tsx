@@ -11,8 +11,6 @@ import {
 } from '@/lib/habits';
 import { Habit, CATEGORY_ICONS } from '@/lib/types';
 
-const DAY_NAMES = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'];
-
 function formatDays(days: number[]): string {
   return `${days.length}/7 days`;
 }
